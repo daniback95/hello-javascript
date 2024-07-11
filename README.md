@@ -15,12 +15,24 @@ Este curso es realizado por [Brais Moure](https://moure.dev/)
 
 ## Clases en vídeo
 
-Próximamente...
+[CLASE 1 | 10/07/2024 | Introducción, instalación, hola mundo y variables](https://www.twitch.tv/videos/2194200202?t=00h14m43s)
 
-## Información importante y preguntas frecuentes
-
-Próximamente...
+Código:
+* [00-hello-world.js](./Basic/00-hello-world.js)
+* [01-variables.js](./Basic/01-variables.js)
 
 ## Enlaces de interés
 
-Próximamente...
+* Impacto: [Stack Overflow](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) | [GitHub](https://github.blog/2023-11-08-the-state-of-open-source-and-ai/) | [Índice TIOBE](https://www.tiobe.com/tiobe-index/) | [Google Trends](https://trends.google.es/trends/explore?cat=5&date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=es)
+* [Historia](https://es.wikipedia.org/wiki/JavaScript)
+* [Especificación ECMAScript](https://tc39.es/ecma262/)
+* [Documentación Mozilla](https://developer.mozilla.org/es/docs/Web/JavaScript)
+* [Documentación JS Info](https://es.javascript.info/)
+* [Documentación W3Schools](https://www.w3schools.com/js/)
+* [Libro Eloquent JavaScript (English)](https://eloquentjavascript.net/)
+* [Libro Eloquent JavaScript (Spanish)](https://eloquent-javascript-es.vercel.app/)
+* [Playground](https://runjs.app/play)
+* [Node.js](https://nodejs.org)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Guía de estilo google](https://google.github.io/styleguide/jsguide.html)
+* [Guía de estilo Airbnb](https://google.github.io/styleguide/jsguide.html)
