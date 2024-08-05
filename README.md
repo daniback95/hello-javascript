@@ -21,6 +21,15 @@ Código:
 * [00-hello-world.js](./Basic/00-hello-world.js)
 * [01-variables.js](./Basic/01-variables.js)
 
+[CLASE 2 | 17/07/2014 | Tipos de datos, operadores y strings](https://www.twitch.tv/videos/2200149072?t=00h08m02s)
+
+Código:
+* [02 - Tipos de datos](./Basic/02-data-types.js)
+* [03 - Ejercicios: Primeros pasos](./Basic/03-beginner-exercises.js)
+* [04 - Operadores](./Basic/04-operators.js)
+* [05 - Strings](./Basic/05-strings.js)
+* [06 - Ejercicios: Strings](./Basic/06-strings-exercices.js)
+
 ## Enlaces de interés
 
 * Impacto: [Stack Overflow](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) | [GitHub](https://github.blog/2023-11-08-the-state-of-open-source-and-ai/) | [Índice TIOBE](https://www.tiobe.com/tiobe-index/) | [Google Trends](https://trends.google.es/trends/explore?cat=5&date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=es)
