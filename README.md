@@ -30,6 +30,14 @@ Código:
 * [05 - Strings](./Basic/05-strings.js)
 * [06 - Ejercicios: Strings](./Basic/06-strings-exercices.js)
 
+[CLASE 3 | 24/07/2014 | Tipos de datos, operadores y strings](https://www.twitch.tv/videos/2206228701?t=00h16m02s)
+
+Código:
+* [07 - Condicionales](./Basic/07-conditionals.js)
+* [08 - Ejercicios: Condicionales](./Basic/08-conditional-exercies.js)
+* [09 - Array](./Basic/09-arrays.js)
+* [10 - Set](./Basic/10-set.js)
+
 ## Enlaces de interés
 
 * Impacto: [Stack Overflow](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) | [GitHub](https://github.blog/2023-11-08-the-state-of-open-source-and-ai/) | [Índice TIOBE](https://www.tiobe.com/tiobe-index/) | [Google Trends](https://trends.google.es/trends/explore?cat=5&date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=es)
