@@ -38,6 +38,15 @@ Código:
 * [09 - Array](./Basic/09-arrays.js)
 * [10 - Set](./Basic/10-set.js)
 
+#### [CLASE 4 | 31/07/2024 | Mapas, bucles y funciones](https://www.youtube.com/live/xg1GeHKiNzU?si=oiWHK8bDTZ1c98hF&t=885)
+
+Código:
+* [12 - Map](./Basic/11-map.js)
+* [13 - Ejercicios: Estructuras](./Basic/12-structures-exercises.js)
+* [14 - Bucles](./Basic/13-loops.js)
+* [15 - Ejercicios: Bucles](./Basic/14-loops-exercises.js)
+* [16 - Funciones](./Basic/15-functions.js)
+* [17 - Ejercicios: Funciones](./Basic/16-functions-exercises.js)
 ## Enlaces de interés
 
 * Impacto: [Stack Overflow](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) | [GitHub](https://github.blog/2023-11-08-the-state-of-open-source-and-ai/) | [Índice TIOBE](https://www.tiobe.com/tiobe-index/) | [Google Trends](https://trends.google.es/trends/explore?cat=5&date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=es)
