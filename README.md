@@ -41,12 +41,24 @@ Código:
 #### [CLASE 4 | 31/07/2024 | Mapas, bucles y funciones](https://www.youtube.com/live/xg1GeHKiNzU?si=oiWHK8bDTZ1c98hF&t=885)
 
 Código:
-* [12 - Map](./Basic/11-map.js)
-* [13 - Ejercicios: Estructuras](./Basic/12-structures-exercises.js)
-* [14 - Bucles](./Basic/13-loops.js)
-* [15 - Ejercicios: Bucles](./Basic/14-loops-exercises.js)
-* [16 - Funciones](./Basic/15-functions.js)
-* [17 - Ejercicios: Funciones](./Basic/16-functions-exercises.js)
+* [11 - Map](./Basic/11-map.js)
+* [12 - Ejercicios: Estructuras](./Basic/12-structures-exercises.js)
+* [13 - Bucles](./Basic/13-loops.js)
+* [14 - Ejercicios: Bucles](./Basic/14-loops-exercises.js)
+* [15 - Funciones](./Basic/15-functions.js)
+* [16 - Ejercicios: Funciones](./Basic/16-functions-exercises.js)
+
+#### [CLASE 5 | 07/08/2024 | Objetos, desestructuración, propagación y clases](https://www.youtube.com/live/SBXEpAx_y_Q?si=Sbqqa2-_eGwsUkH-&t=958)
+
+Código:
+
+* [17 - Objetos](./Basic/17-objects.js)
+* [18 - Ejercicios: Objetos](./Basic/18-objects-exercises.js)
+* [19 - Desestructuración](./Basic/19-destructuring.js)
+* [20 - Propagación](./Basic/20-spreading.js)
+* [21 - Ejercicios: Desestructuración y propagación](./Basic/21-destrcuturing-spread-exercises.js
+* [22 - Clases](./Basic/22-classes.js)
+
 ## Enlaces de interés
 
 * Impacto: [Stack Overflow](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) | [GitHub](https://github.blog/2023-11-08-the-state-of-open-source-and-ai/) | [Índice TIOBE](https://www.tiobe.com/tiobe-index/) | [Google Trends](https://trends.google.es/trends/explore?cat=5&date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=es)
