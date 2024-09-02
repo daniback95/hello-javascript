@@ -56,7 +56,7 @@ Código:
 * [18 - Ejercicios: Objetos](./Basic/18-objects-exercises.js)
 * [19 - Desestructuración](./Basic/19-destructuring.js)
 * [20 - Propagación](./Basic/20-spreading.js)
-* [21 - Ejercicios: Desestructuración y propagación](./Basic/21-destrcuturing-spread-exercises.js
+* [21 - Ejercicios: Desestructuración y propagación](./Basic/21-destrcuturing-spread-exercises.js)
 * [22 - Clases](./Basic/22-classes.js)
 
 ## Enlaces de interés
