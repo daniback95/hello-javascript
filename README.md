@@ -59,6 +59,12 @@ Código:
 * [21 - Ejercicios: Desestructuración y propagación](./Basic/21-destrcuturing-spread-exercises.js)
 * [22 - Clases](./Basic/22-classes.js)
 
+#### Clase 6 | 09/Sep/2024 | Herencia, Manejo de errores
+
+* [23 - Herencia](./Basic/23-herencia.js)
+* [23 - Ejercicios: Clases y herencia](./Basic/24-classes-exercises.js)
+* [24 - Manejo de errores](./Basic/24-classes-exercises.js)
+
 ## Enlaces de interés
 
 * Impacto: [Stack Overflow](https://survey.stackoverflow.co/2023/#most-popular-technologies-language) | [GitHub](https://github.blog/2023-11-08-the-state-of-open-source-and-ai/) | [Índice TIOBE](https://www.tiobe.com/tiobe-index/) | [Google Trends](https://trends.google.es/trends/explore?cat=5&date=today%205-y&q=%2Fm%2F02p97,%2Fm%2F05z1_,%2Fm%2F07sbkfb&hl=es)
