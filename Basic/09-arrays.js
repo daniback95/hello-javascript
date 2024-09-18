@@ -1,90 +1,105 @@
-// Arrays
+/* 
+  Arrays:
+  son estructuras de datos que permiten almacenar múltiples 
+  valores bajo un solo nombre de variable. 
+  Son una clase especial de objeto que proporciona métodos y propiedades
+  para manipular colecciones ordenadas de datos.
 
-let data1 = []
-let data2 = new Array(3)
+  Características de los Arrays:
 
-console.log(data1)
-console.log(data2)
+  1. Almacenamiento de Múltiples Valores: 
+      Un array puede contener elementos de un solo tipo o de diferentes tipos,
+      incluyendo números, cadenas, objetos e incluso otros arrays.
+      Esto permite crear colecciones complejas y flexibles.
+  2. Acceso por Índice: 
+      Los elementos en un array se acceden mediante su índice,
+      que comienza en 0(cero).
+  3. Propiedad length:
+      Cada array tiene una propiedad length que indica la cantidad
+      de elementos que contiene. Esto permite conocer la longitud
+      del array en cualquier momento.
+  4. Métodos Incorporados: 
+      Los arrays en JavaScript vienen con varios métodos útiles
+      para manipular los datos, como push() para agregar elementos al final,
+      pop() para eliminar el último elemento, shift() para eliminar el primer elemento,
+      y unshift() para agregar elementos al inicio.
+*/
 
-// Inicialización
-data1 = [3]
-data2 = new Array(1, 2, 3, 4, 5)
+/* 
+  Declaración de arrays:
+    Arrays lierales:  
+      Es la forma más común
+      const colors = []
 
-console.log(data1)
-console.log(data2)
+    Contructor array:
+      Se usa el constructor pero no es muy común
+      const colors = new Array()
 
-data1 = ["daniel", "juan", "daniback"]
-data2 = new Array("JavaScript", "React", "Vue" )
+    Método array.of():
+      Es un método estático del objeto Array que se utiliza para
+      crear un nuevo array con un número específico de elementos.
+      La característica distintiva de este método es que cada argumento
+      que le pases se convertirá en un elemento del array, sin importar su tipo.
+*/
 
-console.log(data1)
-console.log(data2)
+/* Array literal */
+const arrayVacío = [] // vacío
+console.log('Literal array:', arrayVacío)
+console.log('Tipo:', typeof arrayVacío)
 
-data1 = []
-data2 = new Array(3)
+/* Propiedad length */
+console.log('Longitud de array vacío:', arrayVacío.length)
 
-data1[0] = "feijoa"
-data1[1] = true
-data1[2] = 9
+const colores = ['amarillo', 'azul', 'rojo'] // inicialización
+console.log('Array colores:', colores)
+console.log('Array colores longitud:', colores.length)
 
-console.log(data1)
+const diferentesTipos = ['texto', 2024, true, [1, 2, 3, 'a', 'b']]
+console.log('Array diferentes tipos:', diferentesTipos)
+console.log('Array diferentes tipos longitud:', diferentesTipos.length)
 
-data2[0] = "Azus"
-data2[1] = 1995
-data2[2] = 9 > 3
+/* Constructor Array */
+const constructorArrayVacio = new Array()
+console.log('Constructor array:', constructorArrayVacio)
+console.log('Constructor array longitud:', constructorArrayVacio.length)
 
-console.log(data2)
+/* 
+  Con un solo argumento numérico: 
+    Si se proporciona un solo argumento numérico,
+    se crea un array con esa cantidad de elementos,
+    pero sin ningún valor inicial asignado.
+*/
+const constructorArgumentoNumerico = new Array(3)
+console.log('Constructor argumento numérico:', constructorArgumentoNumerico)
+console.log('Constructor argumento numérico longiud:', constructorArgumentoNumerico.length)
 
-// Métodos comunes
+/* 
+  Con múltiples argumentos: 
+    Si se proporcionan múltiples argumentos,
+    cada uno de ellos se convierte en un elemento del array.
+*/
+const constructorMultiplesArgumentos = new Array(1, 2, 3, 'piña', true)
+console.log('Constructor múltiples argumentos:', constructorMultiplesArgumentos)
+console.log('Constructor múltiples argumentos longitud:', constructorMultiplesArgumentos.length)
 
-let data3 = []
+/* 
+  Método array.of(): 
+    cada argumento que le pases se convertirá en un elemento
+    del array, sin importar su tipo
+  */
+const arrayOfUnicoElemento = Array.of(7)
+console.log('Array of único elemento:', arrayOfUnicoElemento)
+const arrayOfMulitplesElementos = ['Jośe', 33, true, null]
+console.log('Array of múliples elementos:', arrayOfMulitplesElementos)
 
-// push - pop
-
-data3.push("mandarina") // Agrega elementos al final del array y retorna el nuevo tamaño del array
-console.log(data3)
-
-data3.push("fresa", "dátiles")
-console.log(data3)
-
-let elementRemove1 = data3.pop() // elimina y retorna el último elemento del array
-console.log(data3)
-console.log(elementRemove1)
-
-// unshift - shift
-
-data3.unshift("naranja") // agrega elementos al inicio del array y retorna el nuevo tamaño del array
-console.log(data3)
-let lengthData3 = data3.unshift("mora", "guanabana")
-console.log(data3)
-console.log(lengthData3)
-
-let elementRemove2 = data3.shift() // Elimina y retorna el primer elemento del array
-console.log(data3)
-console.log(elementRemove2)
-
-// length
-
-console.log(data3.length) // Propiedad que permite ver el tamaño de array
-
-// clear, limpiar por completo un array
-
-data1 = [] // más convencional y compresible
-// data1.length = 0 // Esta es una alternativa
-console.log(data1)
-
-// slice
-
-let nombres = ["Rita", "Pedro", "Miguel", "Ana", "Vanesa"]
-let nombresMasculinos = nombres.slice(1, 3) // retorna una copia de la parte del array indicado
-console.log(nombresMasculinos)
-
-// splice
-
-let removeNombres = nombres.splice(3, 2) // elimina elementos del array y retorna los elementos eliminados
-console.log(removeNombres) // elemetos eliminados
-console.log(nombres) // array modificado, sin los elementos eliminados
-
-nombres = ["Rita", "Pedro", "Miguel", "Ana", "Vanesa"]
-let removeNombres2 = nombres.splice(2, 1, "Daniel")
-console.log(removeNombres2)
-console.log(nombres)
+/* 
+  Acceso a elementos:
+    Para acceder a un elemento específico de un array, utilizamos su índice.
+    El índice es un número que indica la posición de un elemento
+    dentro del array, y siempre comienza desde 0.
+*/
+console.log('Color específico:', colores[1])
+console.log('Elemento specífico:', diferentesTipos[2])
+console.log('Elemento specífico:', diferentesTipos[3])
+console.log('Elemento specífico:', diferentesTipos[3][3])
+console.log('Elemento specífico constructor:', constructorMultiplesArgumentos[2])
